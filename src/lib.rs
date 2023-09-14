@@ -1,6 +1,6 @@
 use deno_ast::MediaType;
 // use deno_ast::{SourceRange, SourceTextInfo, SyntaxError};
-use deno_lint::ast_parser::parse_program;
+// use deno_lint::ast_parser::parse_program;
 use deno_lint::diagnostic::LintDiagnostic;
 use deno_lint::linter::LinterBuilder;
 use deno_lint::rules::{get_all_rules, get_recommended_rules};
