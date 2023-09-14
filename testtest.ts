@@ -1,7 +1,7 @@
-import {  instantiate} from "./lib/vscode_deno_lint.generated.js"
+import init, {run} from "./wasm/deno_lint.js"
 
-const { lint}=await instantiate()
-const res = lint("file:///C:/Users/ayame/work/deno/vscode-deno-lint/testtest.ts", `
-var aaaaa = 1;
-`, false)
-console.log(res)
+ await init();
+
+
+const res = await run("test.tsx", `var aaaaa = 1;`)
+console.log("aaa", res)
