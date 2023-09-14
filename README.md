@@ -1,5 +1,11 @@
 deno-lintをwasmから呼び出してvscode拡張にするやつ（失敗）
 
+https://github.com/denoland/deno_lint/pull/1182
+からwasmファイルをコピーして動かすことはできたが、lint結果を文字列ではなく生データで取ってくるための変更が必要なので、とりあえず一旦ここまで。
+
+<details>
+<summary>readme</summary>
+
 # deno-lint README
 
 This is the README for your extension "deno-lint". After writing up a brief
@@ -82,3 +88,5 @@ keyboard shortcuts:
 - [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+</details>
